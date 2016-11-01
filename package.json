@@ -1,23 +1,9 @@
 {
-  "name": "weixin",
-  "version": "1.0.0",
-  "description": "node wechat",
-  "main": "server/app.js",
-  "scripts": {
-    "test": "node server/app.js"
-  },
-  "author": "svon@svon.org",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "swig": "^1.4.2"
-  },
   "name": "react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-   "dependencies": {
+  "dependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.0",
@@ -31,8 +17,10 @@
     "babel-preset-stage-2": "^6.18.0",
     "babel-runtime": "^6.18.0",
     "chokidar": "^1.6.1",
+    "express": "^4.14.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "swig": "^1.4.2",
     "webpack": "^1.13.3"
   },
   "devDependencies": {},
