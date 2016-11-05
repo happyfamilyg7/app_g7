@@ -1,1 +1,25 @@
-happy xiaoxiao
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="static/jquery.min.js" ></script>
+		<script>
+			function jsonpcallback(res){
+				alert(JSON.stringify(res));
+			}
+			var script = document.createElement("script");
+			script.src = "/weixin/jssdk?callback = jsonpcallback";
+			document.querySelector("body").appendChild(script);
+		</script>
+	</head>
+	<body>
+		<script>
+			
+			$.Post('/weixin/jssdk',{},function(data){
+				console.log(data)
+			},"json")
+		</script>
+		
+	</body>
+</html>
